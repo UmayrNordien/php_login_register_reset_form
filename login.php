@@ -100,14 +100,9 @@ body {
 }
 
 .wrapper {
-    width: 360px;
-    padding: 20px;
+    width: 500px;
+    padding: 50px;
     margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,10 +173,16 @@ body {
                 <input type="password" name="password" placeholder="Password" class="form-control" id="my-password <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
-            </div>
-            <p>Don't have an account? <a href="register.php">Register now</a>.</p>
+            <div class="row">
+    <div class="col-sm-6">
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary btn-block" value="Login">
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <p class="text-right">Don't have an account? <a href="register.php">Register now</a>.</p>
+    </div>
+</div>
         </form>
     </div>
 </body>
