@@ -14,10 +14,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <head>
     <meta charset="UTF-8" />
     <title>Welcome to ChronoSync Dashboard</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <meta name="description" content="ChronoSync clock in System">
+    <meta name="keywords" content="php login register password reset">
+    <meta name="author" content="ClockOps">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
     <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,15 +28,24 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <style>
-      body {
-        font-family: sans-serif;
-        text-align: center;
-      }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap');
+
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
 
       h1 {
         font-size: 36px;
         margin-top: 50px;
         margin-bottom: 20px;
+      }
+
+      h2{
+        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
       }
 
       .navbar {
@@ -56,6 +65,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         font-size: 18px;
         padding: 10px 20px;
         margin-right: 10px;
+        font-family: lato;
       }
 
       .btn-success {

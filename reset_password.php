@@ -75,10 +75,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Reset Password</title>
+    <meta name="description" content="ChronoSync clock in System">
+    <meta name="keywords" content="php login register password reset">
+    <meta name="author" content="ClockOps">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap');
+
 body {
-    font: 14px sans-serif;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .wrapper {
@@ -95,6 +102,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.btn{
+    font-family: lato;
+}
+
+h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* smaller than 576px */

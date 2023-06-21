@@ -1,6 +1,6 @@
-<!-- https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php -->
-
 mySQL Tables:
+
+/* USER TABLE */
 
 CREATE TABLE users (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
